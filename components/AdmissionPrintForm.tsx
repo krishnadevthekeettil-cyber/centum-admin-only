@@ -68,7 +68,7 @@ const AdmissionPrintForm: React.FC<AdmissionPrintFormProps> = ({ data }) => {
   };
 
   return (
-    <div className="bg-white text-black p-[10mm] w-[210mm] min-h-[297mm] mx-auto print:m-0 print:shadow-none shadow-xl border border-slate-200 font-sans leading-tight relative overflow-hidden">
+    <div className="bg-white text-black p-[10mm] w-[210mm] min-h-[297mm] mx-auto print:m-0 print:shadow-none shadow-xl border border-slate-200 print:border-none font-sans leading-tight relative overflow-hidden">
       {/* Header Section */}
       <div className="flex justify-between items-start mb-4">
         <div className="space-y-0 w-52">
@@ -91,8 +91,8 @@ const AdmissionPrintForm: React.FC<AdmissionPrintFormProps> = ({ data }) => {
         </div>
 
         <div className="text-center flex-1 px-2">
-          <h1 className="text-[52px] font-black tracking-tighter text-[#2b3990] leading-[0.75]">ACADEMY</h1>
-          <h2 className="text-[26px] font-bold tracking-[0.15em] text-[#2b3990] mt-1">CHERPULASSERY</h2>
+          <h1 className="text-[52px] font-black tracking-tighter text-black leading-[0.75]">ACADEMY</h1>
+          <h2 className="text-[26px] font-bold tracking-[0.15em] text-black mt-1">CHERPULASSERY</h2>
           <h3 className="text-[18px] font-bold border-b border-black inline-block px-10 mt-3 pb-0.5 italic">APPLICATION FORM</h3>
           
           <div className="flex justify-center gap-4 mt-8 text-[10px] font-bold">
